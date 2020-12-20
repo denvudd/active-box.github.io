@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ActiveBox</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="js/app.js"></script>
-    
+    <script src="js/scroll-menu.js"></script>
+    <script src="js/header-fixed.js"></script>
 </head>
 
 <body>
@@ -54,12 +54,23 @@
                    <a class="nav__link" href="#" data-scroll="#features">Features</a>
                    <a class="nav__link" href="#" data-scroll="#works">Works</a>
                    <a class="nav__link" href="#" data-scroll="#team">Our team</a>
-                   <a class="nav__link" href="#" data-scroll="#reviews">reviews</a>
+                   <a class="nav__link" href="#" data-scroll="#reviews">Reviews</a>
                    <a class="nav__link" href="#" data-scroll="#download">Download</a>
                </nav>
-               <button class="burger" type="button">
-                   <span class="burger__item">Menu</span>
-               </button>
+               <div class="burger-menu">
+                <a href="#" class="burger-menu__button">
+                  <span class="burger-menu__lines">
+                    <div class="burger-menu__nav">
+                          <a href="#" class="burger__link" data-scroll="#features">Features</a>
+                          <a href="#" class="burger__link" data-scroll="#works">Works</a>
+                          <a href="#" class="burger__link" data-scroll="#team">Our team</a>
+                          <a href="#" class="burger__link" data-scroll="#reviews">Reviews</a>
+                          <a href="#" class="burger__link" data-scroll="#download">Download</a>
+                    </div>
+      
+                    <div class="burger-menu__overlay"></div>
+                </a>
+              </div>
            </div>
        </div>
    </header>
@@ -367,5 +378,7 @@
 
         
 </body>
+
+<script src="js/burger-menu.js"></script>
 
 </html>
