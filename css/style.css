@@ -155,6 +155,7 @@ p {
     
     background: #31344e url("https://i.yapx.ru/JMLVW.jpg") center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
     padding-top: 100px;
 }
